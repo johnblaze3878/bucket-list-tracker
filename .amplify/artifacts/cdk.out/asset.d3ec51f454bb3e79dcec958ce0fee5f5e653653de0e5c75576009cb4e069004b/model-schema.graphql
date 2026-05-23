@@ -1,0 +1,7 @@
+type BucketListItem @model @auth(rules: [{allow: owner, ownerField: "owner"}])
+{
+  title: String!
+  description: String
+  imageUrl: String
+  completed: Boolean!
+}

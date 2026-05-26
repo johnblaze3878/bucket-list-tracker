@@ -128,5 +128,26 @@
       "nonModels": {}
     }
   },
+  "storage": {
+    "aws_region": "us-east-1",
+    "bucket_name": "amplify-bucketlisttracker-bucketlistimagesbucket46-tscolrisbie4",
+    "buckets": [
+      {
+        "name": "bucketListImages",
+        "bucket_name": "amplify-bucketlisttracker-bucketlistimagesbucket46-tscolrisbie4",
+        "aws_region": "us-east-1",
+        "paths": {
+          "images/${cognito-identity.amazonaws.com:sub}/*": {
+            "entityidentity": [
+              "get",
+              "list",
+              "write",
+              "delete"
+            ]
+          }
+        }
+      }
+    ]
+  },
   "version": "1.4"
 }

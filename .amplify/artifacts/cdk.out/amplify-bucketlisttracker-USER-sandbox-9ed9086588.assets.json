@@ -449,16 +449,30 @@
         }
       }
     },
-    "694b2c5399bb7217af73a564fffa24bed278f72153183262cc97267e3b666eb1": {
+    "84f997d95d62bd5a4fd04f10731795146f1238f4dbb553366a39d3a4e7943cb6": {
+      "displayName": "storage Nested Stack Template",
+      "source": {
+        "path": "amplifybucketlisttrackerUSERsandbox9ed9086588storage66E0D794.nested.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region-2c48ad28": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "84f997d95d62bd5a4fd04f10731795146f1238f4dbb553366a39d3a4e7943cb6.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "62497fba5abc565870dd0f214de60a5f997aa6894d5a4bf8aa1b8a36a1ef8b63": {
       "displayName": "amplify-bucketlisttracker-USER-sandbox-9ed9086588 Template",
       "source": {
         "path": "amplify-bucketlisttracker-USER-sandbox-9ed9086588.template.json",
         "packaging": "file"
       },
       "destinations": {
-        "current_account-current_region-9c45aa1b": {
+        "current_account-current_region-9e788540": {
           "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
-          "objectKey": "694b2c5399bb7217af73a564fffa24bed278f72153183262cc97267e3b666eb1.json",
+          "objectKey": "62497fba5abc565870dd0f214de60a5f997aa6894d5a4bf8aa1b8a36a1ef8b63.json",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
         }
       }

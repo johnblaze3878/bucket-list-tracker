@@ -44,6 +44,14 @@
     "amplifyApiModelSchemaS3Uri",
     "awsAppsyncAdditionalAuthenticationTypes"
    ]
+  },
+  "AWS::Amplify::Storage": {
+   "version": "1",
+   "stackOutputs": [
+    "buckets",
+    "storageRegion",
+    "bucketName"
+   ]
   }
  },
  "Outputs": {
@@ -203,6 +211,40 @@
   },
   "awsAppsyncAdditionalAuthenticationTypes": {
    "Value": "AWS_IAM"
+  },
+  "storageRegion": {
+   "Value": {
+    "Ref": "AWS::Region"
+   }
+  },
+  "bucketName": {
+   "Value": {
+    "Fn::GetAtt": [
+     "storage0EC3F24A",
+     "Outputs.amplifybucketlisttrackerUSERsandbox9ed9086588storagebucketListImagesBucket1E3A5B9DRef"
+    ]
+   }
+  },
+  "buckets": {
+   "Value": {
+    "Fn::Join": [
+     "",
+     [
+      "[\"{\\\"name\\\":\\\"bucketListImages\\\",\\\"bucketName\\\":\\\"",
+      {
+       "Fn::GetAtt": [
+        "storage0EC3F24A",
+        "Outputs.amplifybucketlisttrackerUSERsandbox9ed9086588storagebucketListImagesBucket1E3A5B9DRef"
+       ]
+      },
+      "\\\",\\\"storageRegion\\\":\\\"",
+      {
+       "Ref": "AWS::Region"
+      },
+      "\\\",\\\"paths\\\":{\\\"images/${cognito-identity.amazonaws.com:sub}/*\\\":{\\\"entityidentity\\\":[\\\"get\\\",\\\"list\\\",\\\"write\\\",\\\"delete\\\"]}}}\"]"
+     ]
+    ]
+   }
   }
  },
  "Resources": {
@@ -313,6 +355,56 @@
    "Metadata": {
     "aws:cdk:path": "amplify-bucketlisttracker-USER-sandbox-9ed9086588/data.NestedStack/data.NestedStackResource",
     "aws:asset:path": "amplifybucketlisttrackerUSERsandbox9ed9086588data3362A741.nested.template.json",
+    "aws:asset:property": "TemplateURL"
+   }
+  },
+  "storage0EC3F24A": {
+   "Type": "AWS::CloudFormation::Stack",
+   "Properties": {
+    "Parameters": {
+     "referencetoamplifybucketlisttrackerUSERsandbox9ed9086588authNestedStackauthNestedStackResourceF4211010OutputsamplifybucketlisttrackerUSERsandbox9ed9086588authamplifyAuthauthenticatedUserRole9C43CDCCRef": {
+      "Fn::GetAtt": [
+       "auth179371D7",
+       "Outputs.amplifybucketlisttrackerUSERsandbox9ed9086588authamplifyAuthauthenticatedUserRole9C43CDCCRef"
+      ]
+     }
+    },
+    "Tags": [
+     {
+      "Key": "amplify:deployment-type",
+      "Value": "sandbox"
+     },
+     {
+      "Key": "created-by",
+      "Value": "amplify"
+     }
+    ],
+    "TemplateURL": {
+     "Fn::Join": [
+      "",
+      [
+       "https://s3.",
+       {
+        "Ref": "AWS::Region"
+       },
+       ".",
+       {
+        "Ref": "AWS::URLSuffix"
+       },
+       "/",
+       {
+        "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
+       },
+       "/84f997d95d62bd5a4fd04f10731795146f1238f4dbb553366a39d3a4e7943cb6.json"
+      ]
+     ]
+    }
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage.NestedStack/storage.NestedStackResource",
+    "aws:asset:path": "amplifybucketlisttrackerUSERsandbox9ed9086588storage66E0D794.nested.template.json",
     "aws:asset:property": "TemplateURL"
    }
   },

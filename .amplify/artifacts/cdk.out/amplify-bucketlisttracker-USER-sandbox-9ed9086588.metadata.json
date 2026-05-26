@@ -4,7 +4,7 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...defineBackend in @aws-amplify\\backend...",
-        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:5:1)",
+        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:6:1)",
         "...node internals, @aws-amplify/backend-deployer, @aws-cdk\\toolkit-lib..."
       ]
     },
@@ -33,7 +33,7 @@
         "...<anonymous> in @aws-amplify\\backend-output-storage...",
         "Array.forEach (:)",
         "...@aws-amplify\\backend-output-storage, defineBackend in @aws-amplify\\backend...",
-        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:5:1)",
+        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:6:1)",
         "...node internals, @aws-amplify/backend-deployer, @aws-cdk\\toolkit-lib..."
       ]
     }
@@ -49,7 +49,7 @@
         "...<anonymous> in @aws-amplify\\backend-output-storage...",
         "Array.forEach (:)",
         "...@aws-amplify\\backend-output-storage, defineBackend in @aws-amplify\\backend...",
-        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:5:1)",
+        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:6:1)",
         "...node internals, @aws-amplify/backend-deployer, @aws-cdk\\toolkit-lib..."
       ]
     }
@@ -61,7 +61,7 @@
         "...<anonymous> in @aws-amplify\\backend...",
         "Array.forEach (:)",
         "...defineBackend in @aws-amplify\\backend...",
-        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:5:1)",
+        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:6:1)",
         "...node internals..."
       ]
     }
@@ -388,7 +388,7 @@
         "...<anonymous> in @aws-amplify\\backend...",
         "Array.forEach (:)",
         "...defineBackend in @aws-amplify\\backend...",
-        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:5:1)",
+        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:6:1)",
         "...node internals..."
       ]
     }
@@ -480,6 +480,60 @@
         "Array.forEach (:)",
         "...@aws-amplify\\backend-output-storage, @aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, <anonymous> in @aws-amplify\\backend...",
         "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...defineBackend in @aws-amplify\\backend...",
+        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:6:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storageRegion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "storageRegion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\backend-storage, aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/bucketName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "bucketName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\backend-storage, aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/buckets": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "buckets"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\backend-storage, aws-cdk-lib..."
       ]
     }
   ],
@@ -585,7 +639,7 @@
         "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend...",
         "Array.forEach (:)",
         "...defineBackend in @aws-amplify\\backend...",
-        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:5:1)",
+        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:6:1)",
         "...node internals..."
       ]
     }
@@ -786,7 +840,55 @@
         "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend...",
         "Array.forEach (:)",
         "...defineBackend in @aws-amplify\\backend...",
-        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:5:1)",
+        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:6:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+      "data": true
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage/reference-to-amplifybucketlisttrackerUSERsandbox9ed9086588authNestedStackauthNestedStackResourceF4211010Outputs.amplifybucketlisttrackerUSERsandbox9ed9086588authamplifyAuthauthenticatedUserRole9C43CDCCRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifybucketlisttrackerUSERsandbox9ed9086588authNestedStackauthNestedStackResourceF4211010OutputsamplifybucketlisttrackerUSERsandbox9ed9086588authamplifyAuthauthenticatedUserRole9C43CDCCRef"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage/amplifybucketlisttrackerUSERsandbox9ed9086588storagebucketListImagesBucket1E3A5B9DRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifybucketlisttrackerUSERsandbox9ed9086588storagebucketListImagesBucket1E3A5B9DRef"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals, @aws-amplify/backend-deployer...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage.NestedStack/storage.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "storage0EC3F24A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...defineBackend in @aws-amplify\\backend...",
+        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:6:1)",
         "...node internals..."
       ]
     }
@@ -828,7 +930,7 @@
         "...@aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
         "Array.forEach (:)",
         "...defineBackend in @aws-amplify\\backend...",
-        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:5:1)"
+        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:6:1)"
       ]
     }
   ],
@@ -843,7 +945,7 @@
         "...@aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
         "Array.forEach (:)",
         "...defineBackend in @aws-amplify\\backend...",
-        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:5:1)"
+        "<anonymous> (C:\\Users\\USER\\bucket-list-tracker\\amplify\\backend.ts:6:1)"
       ]
     }
   ],
@@ -1028,6 +1130,87 @@
     }
   ],
   "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/data/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage/BUCKET_LIST_IMAGES_BUCKET_NAMEParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BUCKETLISTIMAGESBUCKETNAMEParameter3E231195"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend...",
+        "Array.map (:)",
+        "...<anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage/amplify-bucketlisttracker-USER-sandbox-9ed9086588--storageAccess3/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifybucketlisttrackerUSERsandbox9ed9086588storageAccess3096B3D54"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend-storage...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\backend-storage, @aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage/CDKMetadata/Condition": [
     {
       "type": "aws:cdk:logicalId",
       "data": "CDKMetadataAvailable"
@@ -1668,6 +1851,26 @@
       ]
     }
   ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage/bucketListImages/Bucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "bucketListImagesBucket462B6946"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend-storage, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend..."
+      ]
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
   "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/data/amplifyData/GraphQLAPI/NONE_DS/Resource": [
     {
       "type": "aws:cdk:logicalId",
@@ -2298,6 +2501,38 @@
     {
       "type": "aws:cdk:logicalId",
       "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleDefaultPolicyFF1C635B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage/bucketListImages/Bucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "bucketListImagesBucketPolicy77163617"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend-storage...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/amplify-bucketlisttracker-USER-sandbox-9ed9086588/storage/bucketListImages/Bucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "bucketListImagesBucketAutoDeleteObjectsCustomResource92F1CA73"
     },
     {
       "type": "aws:cdk:creationStack",
